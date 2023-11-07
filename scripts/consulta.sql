@@ -1,7 +1,9 @@
-use adw;
+
+use adw_datawh;
 
 -- Empleados
+
 select *
-from HumanResources_Employee
-limit 5
+from dim_producto
+limit 200
 ;
