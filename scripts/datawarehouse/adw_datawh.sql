@@ -20,7 +20,7 @@ CREATE TABLE
 
 
 
- IF NOT EXISTS dim_vendedor
+ CREATE TABLE IF NOT EXISTS dim_vendedor
 (
     vendedor_key    INT(8)      NOT NULL AUTO_INCREMENT,
     vendedor_id     VARCHAR(64) NOT NULL,

@@ -2,8 +2,7 @@
 use adw_datawh;
 
 -- Empleados
-
+use adw;
 select *
-from dim_producto
-limit 200
+from Production_Product
 ;
